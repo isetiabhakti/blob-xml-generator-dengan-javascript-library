@@ -15,7 +15,7 @@
 <? 
 $time = date("Y-m-d h:i:s", strtotime(' -1 day'));
 
-include_once('../simple_html_dom.php');
+include_once('simple_html_dom.php');
 
 $html[] = file_get_html('https://animasu.net/nonton-plunderer-episode-23/');
 $html[] = file_get_html('https://animasu.net/nonton-plunderer-episode-22/');
